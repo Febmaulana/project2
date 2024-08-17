@@ -1,0 +1,60 @@
+[0m00:16:04.910506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6763bd1900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6763f63ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6763f63a60>]}
+
+
+============================== 00:16:04.922885 | 94fd2a5c-380a-4c9e-bdc1-7a4f58478f79 ==============================
+[0m00:16:04.922885 [info ] [MainThread]: Running with dbt=1.8.5
+[0m00:16:04.924633 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/febb/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:16:05.062631 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/febb/.dbt')}
+[0m00:16:05.063529 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m00:16:49.722852 [debug] [MainThread]: Starter project path: /mnt/c/Users/User/Desktop/Digital Skola/Project2 Dengan Docker/env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m00:16:49.920517 [info ] [MainThread]: 
+Your new dbt project "kk" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:16:49.921508 [info ] [MainThread]: Setting up your profile.
+[0m00:21:07.812065 [info ] [MainThread]: Profile kk written to /home/febb/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:21:07.827012 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 302.98962, "process_user_time": 1.072475, "process_kernel_time": 0.474364, "process_mem_max_rss": "89812", "process_in_blocks": "34368", "process_out_blocks": "8"}
+[0m00:21:07.828369 [debug] [MainThread]: Command `dbt init` succeeded at 00:21:07.828256 after 302.99 seconds
+[0m00:21:07.829511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6763bd1900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6763f30df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6763f63eb0>]}
+[0m00:21:07.830621 [debug] [MainThread]: Flushing usage events
+[0m00:23:31.454195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa05aad5900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa05ae64520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa05ae64610>]}
+
+
+============================== 00:23:31.464057 | a463a999-2067-42dc-81d5-76a08d42b631 ==============================
+[0m00:23:31.464057 [info ] [MainThread]: Running with dbt=1.8.5
+[0m00:23:31.465239 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/febb/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:23:39.681147 [debug] [MainThread]: Starter project path: /mnt/c/Users/User/Desktop/Digital Skola/Project2 Dengan Docker/env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m00:23:39.891522 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:23:39.892530 [info ] [MainThread]: Setting up your profile.
+[0m00:24:55.425045 [info ] [MainThread]: Profile data_warehouse written to /home/febb/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:24:55.430745 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 84.04141, "process_user_time": 1.126804, "process_kernel_time": 0.421326, "process_mem_max_rss": "89864", "process_in_blocks": "14184", "process_out_blocks": "16"}
+[0m00:24:55.432544 [debug] [MainThread]: Command `dbt init` succeeded at 00:24:55.432425 after 84.04 seconds
+[0m00:24:55.433446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa05aad5900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa058fb3f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa05ae64460>]}
+[0m00:24:55.434843 [debug] [MainThread]: Flushing usage events
